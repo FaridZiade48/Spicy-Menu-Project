@@ -14,6 +14,13 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
+  background-image: url(image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
 }
 
 .introduction {
@@ -34,32 +41,51 @@ body {
   gap: 10rem;
 }
 .logo {
-  height: 2.4rem;
-  width: 2.4rem;
+  filter: grayscale(100%);
   margin-top: 2rem;
 }
 .logo--link:link,
 .logo--link:visited {
   text-decoration: none;
-  color: #767676;
+  filter: grayscale(0%);
 }
-.logo--link:hover,
-.logo--link:active {
+.logo:hover,
+.logo:active {
   text-decoration: none;
-  color: #767676;
-  transition: all 0.3s;
+  filter: grayscale(0%);
+  transition: all 0.3s ease;
   cursor: pointer;
 }
 .logo--link:hover {
   display: inline-block;
-  transform: translateY(-0.5rem);
+  transform:scaleZ(1.5rem)
 }
 .menu {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 4rem;
   gap: 3rem;
 }
 .btn {
-  font-size: 1.8rem;
+  font-size: 2rem;
+  width: 35%;
+  height: 10%;
+  padding: 1.6rem 3.2rem;
+  border-radius: 3rem 3rem 3rem 3rem;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  transition: all 0.3s;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  background-color: #F89E9E;
+}
+
+h1,
+p,
+.btn {
+  color: #fff;
 }
