@@ -7,10 +7,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+
 body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -23,15 +25,18 @@ body {
   margin: 0;
 }
 
+/* Header styles */
 .introduction {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   line-height: 1.7;
   margin-top: 5rem;
 }
+
+/* Navigation styles */
 .links {
   display: flex;
   flex-direction: row;
@@ -40,52 +45,76 @@ body {
   align-items: center;
   gap: 10rem;
 }
+
 .logo {
   filter: grayscale(100%);
   margin-top: 2rem;
 }
+
 .logo--link:link,
 .logo--link:visited {
   text-decoration: none;
   filter: grayscale(0%);
 }
+
 .logo:hover,
 .logo:active {
   text-decoration: none;
   filter: grayscale(0%);
   transition: all 0.3s ease;
   cursor: pointer;
-}
-.logo--link:hover {
   display: inline-block;
-  transform:scaleZ(1.5rem)
+  transform: scale(1.1);
 }
+
+/* Menu styles */
 .menu {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 4rem;
-  gap: 3rem;
+  margin-top: 6rem;
+  gap: 2rem;
 }
+
+/* Button styles */
 .btn {
-  font-size: 2rem;
-  width: 35%;
-  height: 10%;
+  font-size: 1.6rem;
+  width: 50%;
   padding: 1.6rem 3.2rem;
-  border-radius: 3rem 3rem 3rem 3rem;
+  border-radius: 3rem;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-weight: 600;
   transition: all 0.3s;
   border: none;
   cursor: pointer;
   font-family: inherit;
-  background-color: #F89E9E;
+  background-color: #ffd700;
+  filter: saturate(70%);
 }
 
+.btn .choice {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.btn img {
+  margin-right: 1rem; /* Adjust the margin as needed */
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+/* Text styles */
 h1,
-p,
-.btn {
+p {
   color: #fff;
+}
+
+.footer {
+  margin-top: 8rem;
 }
