@@ -91,6 +91,7 @@ body {
   border: none;
   cursor: pointer;
   font-family: inherit;
+  color: black;
   background-color: #ffd700;
   filter: saturate(70%);
 }
@@ -113,6 +114,11 @@ h1,
 p {
   color: #fff;
 }
+/* 
+a:link,a:visited {
+  color: #000;
+  text-decoration: none;
+} */
 
 /* .footer {
   margin-top: 8rem;
