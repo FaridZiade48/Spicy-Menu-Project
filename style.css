@@ -117,4 +117,12 @@ p {
 
 .footer {
   margin-top: 8rem;
+  position: relative;
+}
+.img-halal {
+  position: fixed;
+  left: 85%;
+  right: 0;
+  rotate: 32deg;
+  transform-origin: top right;
 }
