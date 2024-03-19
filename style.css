@@ -1,0 +1,130 @@
+/* FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  background-image: url(image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Header styles */
+.introduction {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.8rem;
+  line-height: 1.7;
+  margin-top: 5rem;
+}
+
+/* Navigation styles */
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  align-items: center;
+  gap: 10rem;
+}
+
+.logo {
+  filter: grayscale(100%);
+  margin-top: 2rem;
+}
+
+.logo--link:link,
+.logo--link:visited {
+  text-decoration: none;
+  filter: grayscale(0%);
+}
+
+.logo:hover,
+.logo:active {
+  text-decoration: none;
+  filter: grayscale(0%);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: inline-block;
+  transform: scale(1.1);
+}
+
+/* Menu styles */
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+  gap: 2rem;
+}
+
+/* Button styles */
+.btn {
+  font-size: 1.6rem;
+  width: 50%;
+  padding: 1.6rem 3.2rem;
+  border-radius: 3rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  transition: all 0.3s;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  color: black;
+  background-color: #ffd700;
+  filter: saturate(70%);
+}
+
+.btn .choice {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.btn img {
+  margin-right: 1rem; /* Adjust the margin as needed */
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+/* Text styles */
+h1,
+p {
+  color: #fff;
+}
+
+@media (max-width: 63em) {
+  .btn {
+    width: 50%;
+  }
+}
+@media (max-width: 31em) {
+  .btn {
+    min-width: 32rem;
+  }
+  .introduction {
+    font-size: 1.6rem;
+  }
+}
