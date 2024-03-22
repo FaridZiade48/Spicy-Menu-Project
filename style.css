@@ -33,6 +33,7 @@ body {
   font-size: 1.8rem;
   line-height: 1.7;
   margin-top: 5rem;
+  margin-bottom: 1rem;
 }
 
 /* Navigation styles */
@@ -44,27 +45,26 @@ body {
   align-items: center;
   gap: 10rem;
 }
-
+/* 
 .logo {
-  filter: grayscale(100%);
-  margin-top: 2rem;
-}
+  /* filter: grayscale(100%); */
+/* margin-top: 2rem; }*/
 
+/* 
 .logo--link:link,
 .logo--link:visited {
-  text-decoration: none;
-  filter: grayscale(0%);
-}
+  /* text-decoration: none; */
+/* filter: grayscale(0%); }*/
 
-.logo:hover,
+/* .logo:hover,
 .logo:active {
   text-decoration: none;
-  filter: grayscale(0%);
-  transition: all 0.3s ease;
-  cursor: pointer;
-  display: inline-block;
-  transform: scale(1.1);
-}
+  /* filter: grayscale(0%); */
+/* transition: all 0.3s ease; */
+/* cursor: pointer; */
+/* display: inline-block; */
+/* transform: scale(1.1); 
+}*/
 
 /* Menu styles */
 .menu {
@@ -94,6 +94,8 @@ body {
   color: black;
   background-color: #ffd700;
   filter: saturate(70%);
+  flex-grow: 1;
+  text-align: center;
 }
 
 .btn .choice {
