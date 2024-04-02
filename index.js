@@ -6,3 +6,8 @@ buttons.forEach((button) => {
     button.classList.add("clicked");
   });
 });
+
+function downloadPDF(url) {
+  window.location.href = url;
+  document.activeElement.blur();
+}
