@@ -36,6 +36,6 @@ img {
 @media (max-width: 31em) {
   img {
     width: 90vw;
-    height: 70vh;
+    height: auto;
   }
 }
