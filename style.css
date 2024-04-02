@@ -82,6 +82,9 @@ body {
 .btn:hover {
   transform: scale(1.1);
 }
+.btn.clicked {
+  transform: none;
+}
 .btn:active {
   outline: none;
   border: none;
