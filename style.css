@@ -79,17 +79,6 @@ body {
   flex-grow: 1;
 }
 
-.btn:hover {
-  transform: scale(1.1);
-}
-.btn.clicked {
-  transform: none;
-}
-.btn:active {
-  outline: none;
-  border: none;
-}
-
 h1,
 p {
   color: #fff;

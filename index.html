@@ -15,7 +15,6 @@
     />
     <title>Spicy Chick Menu</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="index.js"></script>
   </head>
   <body>
     <section class="section head">
@@ -137,7 +136,10 @@
 
     <section class="section body">
       <div class="menu">
-        <button class="btn" onclick="downloadPDF('Spicy_appetizer.pdf')">
+        <button
+          class="btn"
+          onclick="window.location.href='Spicy_appetizer.pdf'"
+        >
           <!-- <img
             width="36"
             height="36"
@@ -152,7 +154,7 @@
           />
           <span class="choice">Appetizers</span>
         </button>
-        <button class="btn" onclick="downloadPDF('Spicy_main.pdf')">
+        <button class="btn" onclick="window.location.href='Spicy_main.pdf'">
           <img
             width="36"
             height="36"
@@ -160,7 +162,10 @@
             alt="restaurant"
           /><span class="choice">Main Course</span>
         </button>
-        <button class="btn" onclick="downloadPDF('Spicy_beverages.pdf')">
+        <button
+          class="btn"
+          onclick="window.location.href='Spicy_beverages.pdf'"
+        >
           <img
             width="36"
             height="36"
