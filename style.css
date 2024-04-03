@@ -16,12 +16,15 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  background-image: url(fshs.PNG);
+  background-image: url("Other_Images/Spicy_Background.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   height: 100vh;
-  margin: 0;
+}
+.spicy_logo {
+  width: 100px;
+  height: 100px;
 }
 
 /* Header styles */
@@ -32,7 +35,7 @@ body {
   align-items: center;
   font-size: 1.8rem;
   line-height: 1.7;
-  margin-top: 5rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -45,26 +48,6 @@ body {
   align-items: center;
   gap: 10rem;
 }
-/* 
-.logo {
-  /* filter: grayscale(100%); */
-/* margin-top: 2rem; }*/
-
-/* 
-.logo--link:link,
-.logo--link:visited {
-  /* text-decoration: none; */
-/* filter: grayscale(0%); }*/
-
-/* .logo:hover,
-.logo:active {
-  text-decoration: none;
-  /* filter: grayscale(0%); */
-/* transition: all 0.3s ease; */
-/* cursor: pointer; */
-/* display: inline-block; */
-/* transform: scale(1.1); 
-}*/
 
 /* Menu styles */
 .menu {
@@ -84,7 +67,6 @@ body {
   border-radius: 3rem;
   text-decoration: none;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   font-weight: 600;
   transition: all 0.3s;
@@ -94,24 +76,13 @@ body {
   color: black;
   background-color: #ffd700;
   filter: saturate(70%);
-  flex-grow: 1;
-  text-align: center;
 }
-
 .btn .choice {
+  align-self: center;
+  justify-self: center;
   flex-grow: 1;
-  text-align: center;
 }
 
-.btn img {
-  margin-right: 1rem; /* Adjust the margin as needed */
-}
-
-.btn:hover {
-  transform: scale(1.1);
-}
-
-/* Text styles */
 h1,
 p {
   color: #fff;
