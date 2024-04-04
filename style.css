@@ -16,15 +16,15 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  background-image: url("Other_Images/Spicy_Background.jpeg");
+  background-image: url("Other_Images/Spicy_Background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   height: 100vh;
 }
-.spicy_logo {
-  width: 100px;
-  height: 100px;
+.Spicy_logo {
+  height: 200px;
+  width: auto;
 }
 
 /* Header styles */
@@ -99,5 +99,17 @@ p {
   }
   .introduction {
     font-size: 1.6rem;
+  }
+}
+@media (max-width: 28em) {
+  .btn {
+    min-width: 24rem;
+  }
+  .introduction {
+    font-size: 1rem;
+  }
+  .link {
+    display: flex;
+    flex-direction: column;
   }
 }
