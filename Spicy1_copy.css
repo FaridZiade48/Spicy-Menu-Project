@@ -9,36 +9,29 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  display: flex;
   background-color: rgb(65, 65, 65);
-  width: 100%;
+  width: auto;
   height: 100vh;
 }
 img {
-  height: auto;
-  width: 100%;
+  height: 100vh;
+  width: auto;
 }
 .Container-Appetizer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
 }
 img {
-  height: auto;
-  width: 100%;
+  height: 100vh;
 }
 
 @media (min-width: 144em) {
   img {
-    height: auto;
-    width: 100%;
+    height: 100vh;
   }
 }
 
 @media (max-width: 31em) {
   img {
-    height: auto;
+    height: 100vh;
     width: 100%;
   }
 }
