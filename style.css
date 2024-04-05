@@ -100,15 +100,3 @@ p {
     font-size: 2rem;
   }
 }
-@media (max-width: 28em) {
-  .btn {
-    min-width: 24rem;
-  }
-  .introduction {
-    font-size: 1.7rem;
-  }
-  .link {
-    display: flex;
-    flex-direction: column;
-  }
-}
